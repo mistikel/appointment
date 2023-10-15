@@ -11,6 +11,7 @@ namespace qwiik.Api
         {
             CreateMap<Appointment,GetAppointmentDto>(); 
             CreateMap<AddAppointmentDto, Appointment>(); 
+            CreateMap<GetAppointmentDto, Appointment>(); 
             CreateMap<AppointmentLimit, GetAppointmentLimitDto>(); 
             CreateMap<AddAppointmentLimitDto, AppointmentLimit>(); 
             CreateMap<DayOff, GetDayOffDto>(); 
