@@ -1,4 +1,5 @@
 using qwiik.Api.Dtos.Appointment;
+using qwiik.Api.Dtos.AppointmentRule;
 using qwiik.Api.Models;
 
 namespace qwiik.UnitTests.MockData;
@@ -57,4 +58,84 @@ public class AppointmentMockData
         return serviceResponse;
         
     }
+
+    public static ServiceResponse<List<GetAppointmentLimitDto>> GetAppointmentLimits()
+    {
+        var serviceResponse = new ServiceResponse<List<GetAppointmentLimitDto>>
+        {
+            Data = new List<GetAppointmentLimitDto>{
+                new() {
+                    Id=1,
+                    Date= DateTime.Now
+                },
+                new() {
+                    Id=2,
+                    Date= DateTime.Now
+                },
+                new() {
+                    Id=3,
+                    Date= DateTime.Now
+                }
+            },
+            Success = true
+        };
+
+        return serviceResponse;
+        
+    }
+
+    public static ServiceResponse<GetAppointmentLimitDto> GetAppointmentLimit()
+    {
+        var serviceResponse = new ServiceResponse<GetAppointmentLimitDto>
+        {
+            Data = new() {
+                    Id=1,
+                    Date= DateTime.Now
+                },
+            Success = true
+        };
+
+        return serviceResponse;
+        
+    }
+    
+    public static ServiceResponse<List<GetDayOffDto>> GetDayOffs()
+    {
+        var serviceResponse = new ServiceResponse<List<GetDayOffDto>>
+        {
+            Data = new List<GetDayOffDto>{
+                new() {
+                    Id=1,
+                    Date= DateTime.Now
+                },
+                new() {
+                    Id=2,
+                    Date= DateTime.Now
+                },
+                new() {
+                    Id=3,
+                    Date= DateTime.Now
+                }
+            },
+            Success = true
+        };
+
+        return serviceResponse;
+    }
+
+    public static ServiceResponse<GetDayOffDto> GetDayOff()
+    {
+        var serviceResponse = new ServiceResponse<GetDayOffDto>
+        {
+            Data =
+                new() {
+                    Id=1,
+                    Date= DateTime.Now
+                },
+            Success = true
+        };
+
+        return serviceResponse;
+    }
+        
 }
