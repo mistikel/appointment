@@ -1,7 +1,7 @@
-using qwiik.API.Dtos.AppointmentRule;
-using qwiik.API.Models;
+using qwiik.Api.Dtos.AppointmentRule;
+using qwiik.Api.Models;
 
-namespace qwiik.API.Service.AppointmentRules
+namespace qwiik.Api.Service.AppointmentRules
 {
     public interface IAppointmentRules
     {

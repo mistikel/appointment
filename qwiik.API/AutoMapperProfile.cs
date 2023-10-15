@@ -1,9 +1,9 @@
 using AutoMapper;
-using qwiik.API.Dtos.Appointment;
-using qwiik.API.Dtos.AppointmentRule;
-using qwiik.API.Models;
+using qwiik.Api.Dtos.Appointment;
+using qwiik.Api.Dtos.AppointmentRule;
+using qwiik.Api.Models;
 
-namespace qwiik.API
+namespace qwiik.Api
 {
     public class AutoMapperProfile : Profile 
     {

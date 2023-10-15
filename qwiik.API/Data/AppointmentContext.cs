@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using qwiik.API.Models;
+using qwiik.Api.Models;
 
     public class AppointmentContext : DbContext
     {

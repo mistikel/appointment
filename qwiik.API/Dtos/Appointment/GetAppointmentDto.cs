@@ -1,4 +1,4 @@
-namespace qwiik.API.Dtos.Appointment
+namespace qwiik.Api.Dtos.Appointment
 {
     public class GetAppointmentDto 
     {

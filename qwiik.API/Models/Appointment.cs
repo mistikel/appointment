@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace qwiik.API.Models;
+namespace qwiik.Api.Models;
 
 public class Appointment
 {
@@ -10,7 +10,7 @@ public class Appointment
     public string Title { get; set; } = "Title";
     [MaxLength(300), Column(TypeName = "nvarchar(300)")]
     public string Description { get; set; } = "Description";
-    public DateTime Date { get; set; } = DateTime.Now;
+public DateTime Date { get; set; } = DateTime.Now;
     [MaxLength(100), Column(TypeName = "nvarchar(100)")]
     public string Address { get; set; } = "Address";
 

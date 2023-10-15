@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using qwiik.API.Dtos.Appointment;
-using qwiik.API.Models;
-using qwiik.API.Service.Appointments;
+using qwiik.Api.Dtos.Appointment;
+using qwiik.Api.Models;
+using qwiik.Api.Service.Appointments;
 
-namespace qwiik.API.Controllers
+namespace qwiik.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -24,7 +24,7 @@ namespace qwiik.API.Controllers
 
         // GET: api/Appointment
         [HttpGet]
-        public async Task<ActionResult<ServiceResponse<List<Appointment>>>> GetAppointment()
+        public async Task<ActionResult<ServiceResponse<List<Appointment>>>> GetAllAppointment()
         {
           return Ok(await _appointmentService.GetAllAppointments());
         }

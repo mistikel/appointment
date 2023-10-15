@@ -1,4 +1,4 @@
-namespace qwiik.API.Dtos.AppointmentRule
+namespace qwiik.Api.Dtos.AppointmentRule
 {
     public class GetDayOffDto 
     {

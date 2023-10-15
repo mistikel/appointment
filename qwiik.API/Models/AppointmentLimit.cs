@@ -1,4 +1,4 @@
-namespace qwiik.API.Models;
+namespace qwiik.Api.Models;
 
 public class AppointmentLimit
 {

@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using qwiik.API.Service.AppointmentRules;
-using qwiik.API.Service.Appointments;
+using qwiik.Api.Service.AppointmentRules;
+using qwiik.Api.Service.Appointments;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppointmentContext>(options =>
     options.UseInMemoryDatabase("Appointment"));

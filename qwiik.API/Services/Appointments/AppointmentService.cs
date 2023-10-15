@@ -1,9 +1,9 @@
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using qwiik.API.Dtos.Appointment;
-using qwiik.API.Models;
+using qwiik.Api.Dtos.Appointment;
+using qwiik.Api.Models;
 
-namespace qwiik.API.Service.Appointments
+namespace qwiik.Api.Service.Appointments
 {
     public class AppointmentService : IAppointmentService
     {

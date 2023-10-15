@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace qwiik.API.Controllers;
+namespace qwiik.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]

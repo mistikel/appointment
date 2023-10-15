@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace qwiik.API.Models
+namespace qwiik.Api.Models
 {
     public class ServiceResponse<T>
     {

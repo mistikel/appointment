@@ -1,4 +1,4 @@
-namespace qwiik.API;
+namespace qwiik.Api;
 
 public class WeatherForecast
 {

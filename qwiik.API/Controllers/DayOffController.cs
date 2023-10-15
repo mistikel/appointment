@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using qwiik.API.Dtos.AppointmentRule;
-using qwiik.API.Models;
+using qwiik.Api.Dtos.AppointmentRule;
+using qwiik.Api.Models;
 
-using qwiik.API.Service.AppointmentRules;
-namespace qwiik.API.Controllers
+using qwiik.Api.Service.AppointmentRules;
+namespace qwiik.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
