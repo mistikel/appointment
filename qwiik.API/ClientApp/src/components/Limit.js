@@ -18,7 +18,7 @@ export default function Limit(props){
 
     return (
         <div className="modal-container">
-            <div className="modal-title">Day Off</div>
+            <div className="modal-title">Appointment Limit</div>
 
             <div className="row mt-15">
                 <div>

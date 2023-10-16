@@ -26,8 +26,8 @@ export default function Home(props) {
       <h1>Qwiik Appointment Management</h1>
       <div className="add-btn row items-center content-center">
         <div className="btn add" onClick={() => openModal("new-modal")}>+</div>
-        <div className="btn" onClick={() => openModal("day-off-modal")}>Day Off</div>
-        <div className="btn" onClick={() => openModal("limit-modal")}>Limit</div>
+        <div className="btn add" onClick={() => openModal("day-off-modal")}>Off</div>
+        <div className="btn add" onClick={() => openModal("limit-modal")}>Limit</div>
       </div>
 
       <div className="notifications spacer-20"></div>
